@@ -1,0 +1,27 @@
+{
+  "name": "fitness-ai-workout-planner",
+  "version": "1.0.0",
+  "description": "Generate meal using openai and langchain",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "wgemini": "node workout_gemini_google_sdk.js",
+    "wlgemini": "node workout_gemini_langchain.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gemini",
+    "langchain",
+    "ai"
+  ],
+  "author": "Gaurav Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@langchain/core": "^0.3.3",
+    "@langchain/google-genai": "^0.1.0",
+    "@langchain/openai": "^0.3.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  }
+}
